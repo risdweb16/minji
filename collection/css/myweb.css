@@ -1,0 +1,179 @@
+
+body {font-family: "Lato", sans-serif;
+	font-weight: 400 ;
+
+	margin: 0 auto;
+
+	font-size: 16px;
+	max-width: ;
+	position: relative;
+	
+	
+}
+
+
+h2 { font-family: "Cardo", serif;
+	font-style: italic;
+	font-size: 30px;
+	}
+
+
+div img { max-width: 100%;
+		z-index: 80;
+		position: absolute;
+	  opacity: 0.93;
+	  margin-bottom: 1em;
+	   }
+
+
+#worldmap{ opacity:0.6;}
+
+
+.mark:hover ~ div img{
+      opacity: 0.5;
+      }
+
+
+
+
+.map {position: relative;}
+
+
+
+
+
+.mark { 
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 32px solid #920783;
+	z-index: 100;
+	position: absolute;
+	-webkit-transition: all .2s ease-in-out;
+}
+
+
+
+
+
+
+.one {margin-left: 29%;
+	margin-top: 12%;}
+
+.two {margin-left: 50%;
+	margin-top: 7%;}
+
+.three {margin-left: 79%;
+	margin-top: 15%;}
+
+
+
+
+
+.mark:hover { 
+		-webkit-transform: scale(1.2);}
+
+
+
+.m span img {
+		max-width: 100%; 
+		z-index: 50;}
+
+
+
+.m span {
+		max-width: 100%;
+		 opacity: 0;
+  -webkit-transition: opacity 0.4s ease-out;  
+     -moz-transition: opacity 0.4s ease-out;  
+      -ms-transition: opacity 0.4s ease-out;  
+       -o-transition: opacity 0.4s ease-out;  
+          transition: opacity 0.4s ease-out;  
+          position: absolute;
+			}
+
+
+
+.m:hover span { display: block;
+				visibility:visible;
+				position: absolute;
+				figure:hover figcaption;
+ 				  opacity: 1; }
+
+
+
+.continue {	
+	right: 5em;
+	position: absolute;
+	margin-top: -7em;
+	z-index: 100;
+	-webkit-transition: all .2s ease-in-out;
+}
+
+
+
+.continue:hover { 
+		-webkit-transform: scale(1.2);}
+
+
+
+.para { 
+	position: absolute;
+	margin-top: 60%;
+	padding: 4em;
+	margin-bottom: 4em;}
+
+
+
+.first {
+		
+		}
+
+
+
+.first img { max-width: 100%; 
+			z-index: 50; 
+		}
+
+
+
+.second { 
+		margin-top: 8em;
+		}
+
+
+
+.third { 
+		margin-top: 8em;
+		}
+
+
+.second img {max-width: 100%; 
+			z-index: 50; }
+
+
+.third img {max-width: 100%; 
+			z-index: 50; }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 770px){
+
+
+	.para {
+		max-width: 100%;
+		padding: 2em;
+		
+	}
+
+
+}
+
+
+

@@ -1,0 +1,104 @@
+
+body {
+	font-family: "Lato", sans-serif;
+	font-weight: 100 ;
+	margin: 0 auto;
+	padding: 4em;
+	font-size: 16px;
+	max-width: 900px;
+	text-align: left;
+	color: white;
+
+
+}
+
+
+
+h1 { position: absolute;
+	font-weight: 100 ;
+	font-size: 140px;
+	background-color: #009999;
+	z-index: 30;
+	text-transform: uppercase;
+	  opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   z-index: 0;
+   position: relative;
+	}
+
+
+h1:hover { 
+      opacity: 0.5;
+      }
+
+
+
+
+a {text-decoration: none;
+	color: white;}
+
+
+p { margin-left: 25px; 
+	line-height: auto;
+	}
+
+
+.img {
+	max-width: 900px;
+	height: 600px;
+	background-image: url("01-1.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   z-index: 0;
+   position: relative;
+
+
+   }
+
+
+
+ .img:hover {
+      opacity: 0.5;
+      }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 770px){
+	.titles { margin-right: 100%; 
+			margin-bottom: 1em;
+			}
+
+	.titles, .articles {
+		width: 100%;
+		float: none;
+	
+		text-align: left;
+	}
+
+	
+	.empty { display: none; }
+	.date { display: none; }
+
+
+
+
+
+}
+
+
+

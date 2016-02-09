@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Page Title</title>
+	<link rel="stylesheet" type="text/css" href="css/myweb.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:100,400' rel='stylesheet' type='text/css'>
+</head>
+	
+<header id="top"></header>
+
+<body>
+
+
+
+<section class="map">
+
+	<div class="worldmap">
+	<img src="img/back.png" alt="worldmap" />
+	</div>
+
+
+
+
+	<a class="m" href="#first"><div class="mark one">    &nbsp;
+			</div>
+		<span><img src="pages/01/b2.jpg" alt=""></span></a>
+
+
+	<a class="m" href="#second"><div class="mark two">    &nbsp;
+			</div>
+		<span><img src="pages/02/g1.png" alt=""></span></a>
+
+
+	<a class="m" href="#third"><div class="mark three">    &nbsp;
+			</div>
+		<span><img src="pages/03/h08.jpg" alt=""></span></a>
+
+
+
+
+
+</section>
+
+
+
+<section class= "para">
+	<section class="first" id="first"> 
+		<h2>Design Museum Boston</h2>
+
+		<p>The mission of the Design Museum Foundation is <em>Design is everywhere. So are we.</em> They promote <em>all things design.</em> and highlight the positive impact good design and innovative thinking can have on literally everything. It produces public exhibitions, events, and online content to show the who, why, and how behind the things we see and use everyday.</p>
+
+		<p>Despite this ambitious mission to be <em>everywhere</em>, the museums location at the 7 tide street is industrial landfill area, so its atmosphere is desolate. There are no interesting element(even no buildings) nearby to attract people to the site, which means it is difficult not only to attract people with an interest in design but also to attract people who might just be passing by. </p>
+		<img src="pages/01/b2.jpg" alt=""></span></a>
+
+		<a class="continue" href='pages/01/first.html'><img src="img/arrow.png"></a>
+
+	</section>
+
+
+
+
+
+
+
+	<section class="second" id="second"> 
+		<h2>The History of Garden Museum in Copenhagen</h2>
+
+		<p>I designed The History of Garden Museum in Copenhagen, focusing on the history of parks in Copenhagen.</p>
+		<p>Copenhagen has parks which were laid out on the grounds of the old fortification ring after it was decommissioned in the 1870s, the parks still retains elements from the old fortifications in its topography. The Fortification Ring has been dominated by a number of parks and distinctive greenspaces and it is still maintained and developed as a green belt within the city limits. </p>
+		<p>Therefore, the greenspaces make the city more active and pleasant environment. The citizens in Copenhagen have a new greenspace, getting information about the history of parks in the museum. </p>
+		<p>The design of museum was inspired by the shape of old fortifications which are still clearly seen in the topography in Copenhagen. The characteristic of fortification is enclosed by water and walls, so I used them as a concept.  The walls are used in the boundary of site and road . the water is on the north where the entry for the building is located. When people have to enter the building, they encounter the walls first, making them curious about the building and then see the water. After crossing the bridge, they will finally see the site. At this moment, they feel the quiet, calm atmosphere and nature environment. </p>
+		<p>Upon entering the site, visitors are to take a path to see the exhibition by chronological order, starting from the 16th Century to the future.
+		Each gallery has unique courtyard and exhibition rooms according to their era. </p>
+		<img src="pages/02/g1.png" alt=""></span></a>
+
+
+
+
+		<a class="continue" href='pages/02/second.html'><img src="img/arrow.png"></a>
+	</section>
+
+
+
+
+
+	<section class="third" id="third"> 
+		<h2>Hialeah Art Center</h2>
+
+		<p>On August 10th, 2006, Camp Hialeah was formally returned to Busan Metropolitan City and was opened to the public in April of 2010. Camp Hialeah is a former Imperial Japanese Army base and United States Army camp located in the Busanjin district of the city of Busan, South Korea. The camp was closed and stopped in its urbanization process for the last 100 years, while the city of Busan continued growing and eventually surrounded the camp, creating a kind of independent <em>land</em> within the city. Now, citizens have the chance to regain this land and its historic modern buildings. </p>
+		<p>The <em>Renovation of Camp Hialeah</em> project aimed to pre- serve valuable modern buildings and provide new places for the city’s arts-based community. </p>
+		<p>In contrast with the surrounding dense high-rise buildings, the camp contained single story buildings spread sparsely. This distribution opened the possibility that the camp could become a park for citizens. Therefore, I planned to make underground spaces so as to provide citizens with resting spaces (existing spaces) and community spaces (renovated spaces), while also preserving the modern buildings.</p> 
+
+		<p>A main road across the site has two important functions: connecting the camp with the city and providing underground spaces for natural light. The road connects with the main street of the city, which helps Hialeah to be absorbed in the city of Busan by providing easy access for people visiting it. In addition, it connects with the lowest floor, so it is possible for sunlight to penetrate into the interior space. </p>
+
+		<img src="pages/03/h08.jpg" alt=""></span></a>
+
+
+
+
+		<a class="continue" href='pages/03/third.html'><img src="img/arrow.png"></a>
+	</section>
+
+
+	<div class="scrollToTop" style="display: none;">
+		<a href="#top">
+			&#9650;
+		</a>
+	</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+	var root = $('html, body'); //set html and body of document in variable root
+
+	$('a').click(function() {
+		    var href = $.attr(this, 'href');
+		    //using jQuery animate and offset for smooth scrolling
+		    root.animate({
+		        scrollTop: $(href).offset().top-50 //getting the coordinates of the top of the target href relative to document
+		    	}, 200, function () {
+		        window.location.hash = href; //function to call once animation is complete: update url with anchor location
+		    });
+		    return false;
+		});
+
+
+
+
+	</script>
+
+
+
+	</body>
+
+</html>
+
+
+
+

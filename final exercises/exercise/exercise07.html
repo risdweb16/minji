@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+	<link rel="stylesheet" type="text/css" href="../css/form.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+</head>
+	<body>
+
+  <div>
+  <h1><a href='../menu.html'>RISD 2016 WEBDESIGN MINJIKIM</h1></a>
+  </div>
+
+
+
+
+
+
+
+<div id="cssmenu">
+<ul>
+   <li><a href='../menu.html'><span>Home</span></a></li>
+   <li class='active has-sub'><a href='#'><span>exercise +</span></a>
+      <ul>
+   
+        <li class='has-sub'><a href='exercise02.html'><span>seven principle</span></a>
+        <li class='has-sub'><a href='exercise03.html'><span>site map</span></a>
+        <li class='has-sub'><a href='exercise04.html'><span>positioning</span></a>
+        <li class='has-sub'><a href='exercise05.html'><span>grid</span></a>
+        <li class='has-sub'><a href='exercise06.html'><span>poster</span></a>
+        <li class='has-sub'><a href='exercise07.html'><span>form</span></a>
+        <li class='has-sub'><a href='exercise08.html'><span>breaking</span></a>
+      </ul>
+            
+   <li class='active has-sub'><a href='#'><span>project +</span></a>
+    <ul>
+        <li class='has-sub'><a href='../project/project01.html'><span>resume</span></a>
+        <li class='has-sub'><a href='../project/project02.html'><span>(de)design</span></a>
+        <li class='has-sub'><a href='../project/project03.html'><span>game</span></a>
+      </ul>
+
+   <li class='last'><a href='../contact.html'><span>Contact</span></a></li>
+</ul>
+</div>
+
+
+<form action="result.php" method="post" target="_blank" accept-charset="UTF-8" autocomplete="off" novalidate>
+    <fieldset>
+       <h2>First name:</h2>
+        <input type="text" name="firstname" value="Minji">
+
+       <h2>Last name:</h2>
+        <input type="text" name="lastname" value="Kim">
+
+       <h2>Birthday:</h2>
+        <div id="date1" class="datefield">
+            <input id="day" type="tel" maxlength="2" placeholder="DD"/> /              
+            <input id="month" type="tel" maxlength="2" placeholder="MM"/>/
+            <input id="year" type="tel" maxlength="4" placeholder="YYYY"/>
+        </div>
+
+         <h2>Email:</h2>
+        <input type="email" name="email" value="ex. mkim28@risd.edu">
+       
+      <h2>Gender:</h2>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+      
+      <h2>The most used transportation :</h2>
+      <input type="checkbox" name="vehicle1" value="Car"> Walking
+       <input type="checkbox" name="vehicle2" value="Bike"> Bike
+       <input type="checkbox" name="vehicle3" value="Car"> Car
+       <input type="checkbox" name="vehicle4" value="Car"> Taxi
+       <input type="checkbox" name="vehicle5" value="Car"> Bus
+       <input type="checkbox" name="vehicle6" value="Car"> Train
+       <input type="checkbox" name="vehicle7" value="Car"> Subway
+       <input type="checkbox" name="vehicle8" value="Car"> others
+      
+
+
+      <h2>Search Google:</h2>
+      
+      <input type="text" name="search" value="Search..">
+      
+
+      <br>
+      <br>
+      <br>
+      <div class="submit">
+      <input type="submit" value="Sutmit">
+      </div>
+
+    </fieldset>
+    </form>
+    
+
+
+
+
+
+
+	</body>
+
+</html>
